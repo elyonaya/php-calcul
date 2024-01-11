@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo</title>
+</head>
+<body>
+
+    <!-- <form method="post" action="traitement.php">
+        <label for="name">Entrez votre prenom ci-dessous</label> <br><br>
+        <input type="text" name="name" placeholder="Entrez votre prenom ici">
+        <input type="submit" value="Valider">
+    </form> -->
+
+    <form method="post" action="traitement.php">
+        <label for="name">Entrez deux chiffres ci-dessous</label> <br><br>
+        <input type="number" name="valeur1" placeholder="Entrez le premier chiffre ici" required step="0.01">
+        +
+        <input type="number" name="valeur2" placeholder="Entrez le deuxième chiffre ici" required step="0.01">
+        <input type="submit" value="Calculer">
+    </form>
+    
+</body>
+</html>
